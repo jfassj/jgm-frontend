@@ -34,9 +34,8 @@ function Card({ card }) {
         </div>
       </div>
       <p style={{ margin: 0, color: "var(--font-grey)" }}>{card.desc}</p>
-      <p style={{ margin: 0, color: "var(--font-grey)" }}>{card.date}</p>
       <p style={{ margin: "0.2rem", fontSize: "1rem", color: "var(--black" }}>
-        <span style={{ fontWeight: "600" }}>₹{card.price}</span> night
+        <span style={{ fontWeight: "600" }}>${card.price}</span> MXN
       </p>
     </div>
   );

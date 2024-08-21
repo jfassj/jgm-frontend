@@ -3,7 +3,7 @@ import "./App.css";
 import Cards from "./components/Cards";
 import Filter from "./components/Filter";
 import Header from "./components/Header";
-import {list, list2} from "./assets/card-list";
+import {list, list2} from "./assets/card-list2";
 
 function App() {
   const [selectedFilter, setSelectedFilter] = useState(0);

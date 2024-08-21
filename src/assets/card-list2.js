@@ -1,0 +1,196 @@
+export const list2 = [
+    {
+      rating: "5",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F292x200%2Fvictoria-de-durango-centro-durango-durango-24677772-foto-01.jpg&w=1920&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fvictoria-de-durango-centro-durango-durango-24677772-foto-02.jpg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fvictoria-de-durango-centro-durango-durango-24677772-foto-03.jpg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fvictoria-de-durango-centro-durango-durango-24677772-foto-04.jpg&w=828&q=75",
+      ],
+      price: "11,000",
+      title: "_ , Colonia Victoria de Durango Centro, C.P. 34000",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fb5b1fbc6-4069-11ee-9b99-be0b9c83385b.jpeg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F307cc1b0-406a-11ee-9b99-be0b9c83385b.jpeg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F32130e1c-406a-11ee-9b99-be0b9c83385b.jpeg&w=640&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F3ef99d1c-406a-11ee-91a2-52e8ed75d851.jpeg&w=640&q=75",
+      ],
+      price: "15,500",
+      title: "JOSE MARIA PATONI #999, Colonia Abetos, C.P. 34217",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F2630a7ac-341f-11ef-84a3-1507ff564696.jpeg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F7484fd8c-341f-11ef-a749-1f5f87768e43.jpeg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F88d59406-341f-11ef-8946-1f5f87768e43.jpeg&w=640&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2F0f305601-3420-11ef-887f-0b7cb0b414e7.jpeg&w=640&q=75"
+      ],
+      price: "8,000",
+      title: "Calle Bruno Martinez #500, Colonia IV Centenario, C.P. 34150",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fpino-suarez-victoria-de-durango-centro-durango-durango-28420832-foto-01.jpg&w=828&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fpino-suarez-victoria-de-durango-centro-durango-durango-28420832-foto-04.jpg&w=640&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fpino-suarez-victoria-de-durango-centro-durango-durango-28420832-foto-08.jpg&w=640&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2F600x400%2Fpino-suarez-victoria-de-durango-centro-durango-durango-28420832-foto-07.jpg&w=828&q=75",
+      ],
+      price: "20,000",
+      title: "Pino Suarez, Colonia Victoria de Durango Centro, C.P. 34000",
+    },
+  ];
+  
+  export const list = [
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-canelas-durango-durango-28467315-foto-01.json&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-canelas-durango-durango-28467315-foto-02.json&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-canelas-durango-durango-28467315-foto-03.json&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-canelas-durango-durango-28467315-foto-04.json&w=2048&q=75",
+      ],
+      price: "12,500",
+      title: "Enrique Carrola Antuna, Colonia Canelas, C.P. 34290",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fvictoria-de-durango-centro-durango-durango-victoria-de-durango-centro-durango-durango-26621901-foto-01.png&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fvictoria-de-durango-centro-durango-durango-victoria-de-durango-centro-durango-durango-26621901-foto-02.png&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fvictoria-de-durango-centro-durango-durango-victoria-de-durango-centro-durango-durango-26621901-foto-03.png&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fvictoria-de-durango-centro-durango-durango-victoria-de-durango-centro-durango-durango-26621901-foto-04.png&w=2048&q=75",
+      ],
+      price: "15,000",
+      title: "Victoria de Durango Centro, Durango, Durango, Colonia Victoria de Durango Centro, C.P. 34000",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fcarretera-a-mazatlan-97-hacienda-de-tapias-durango-durango-27211749-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fcarretera-a-mazatlan-97-hacienda-de-tapias-durango-durango-27211749-foto-02.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fcarretera-a-mazatlan-97-hacienda-de-tapias-durango-durango-27211749-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fcarretera-a-mazatlan-97-hacienda-de-tapias-durango-durango-27211749-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fcarretera-a-mazatlan-97-hacienda-de-tapias-durango-durango-27211749-foto-05.jpg&w=2048&q=75",
+      ],
+      price: "35,000",
+      title: "Carretera a mazatlan #97, Colonia Hacienda de Tapias, C.P. 34147",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fdomingo-arrieta-juan-lira-bracho-durango-durango-28422360-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fdomingo-arrieta-juan-lira-bracho-durango-durango-28422360-foto-02.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fdomingo-arrieta-juan-lira-bracho-durango-durango-28422360-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fdomingo-arrieta-juan-lira-bracho-durango-durango-28422360-foto-04.jpg&w=2048&q=75",
+      ],
+      price: "6,500",
+      title: "Domingo Arrieta, Colonia Juan Lira Bracho, C.P. 34188",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-cienega-durango-durango-27618474-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-cienega-durango-durango-27618474-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-antuna-cienega-durango-durango-27618474-foto-06.jpg&w=2048&q=75",  
+      ],
+      price: "20,000",
+      title: "Enrique Carrola Antuna, Colonia Ciénega, C.P. 34090",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ff060ec30-33f5-11ee-9adf-3a062e58c739.jpeg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ff566f058-33f5-11ee-9adf-3a062e58c739.jpeg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ff797396e-33f5-11ee-9adf-3a062e58c739.jpeg&w=2048&q=75",
+      ],
+      price: "30,000",
+      title: "Blvd Felipe Pescador 1104 #1104, Colonia Real del Prado, C.P. 34080",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fla-forestal-durango-durango-28410774-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fla-forestal-durango-durango-28410774-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fla-forestal-durango-durango-28410774-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fla-forestal-durango-durango-28410774-foto-05.jpg&w=2048&q=75",
+      ],
+      price: "4,000",
+      title: "La Forestal, Colonia La Forestal, C.P. 34217",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2F5-de-febrero-victoria-de-durango-centro-durango-durango-28375556-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2F5-de-febrero-victoria-de-durango-centro-durango-durango-28375556-foto-02.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2F5-de-febrero-victoria-de-durango-centro-durango-durango-28375556-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2F5-de-febrero-victoria-de-durango-centro-durango-durango-28375556-foto-07.jpg&w=2048&q=75",
+      ],
+      price: "20000",
+      title: "5 de Febrero, Colonia Victoria de Durango Centro, C.P. 34000",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ffelipe-pescador-herrera-leyva-durango-durango-27084867-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ffelipe-pescador-herrera-leyva-durango-durango-27084867-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ffelipe-pescador-herrera-leyva-durango-durango-27084867-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Ffelipe-pescador-herrera-leyva-durango-durango-27084867-foto-07.jpg&w=2048&q=75",
+      ],
+      price: "55,683",
+      title: "Felipe Pescador, Colonia Herrera Leyva, C.P. 34000",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fboulevard-felipe-pescador-victoria-de-durango-centro-durango-durango-27649769-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fboulevard-felipe-pescador-victoria-de-durango-centro-durango-durango-27649769-foto-03.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fboulevard-felipe-pescador-victoria-de-durango-centro-durango-durango-27649769-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fboulevard-felipe-pescador-victoria-de-durango-centro-durango-durango-27649769-foto-05.jpg&w=2048&q=75",
+      ],
+      price: "9,884",
+      title: "Blvd. Felipe Pescador, Colonia Victoria de Durango Centro, C.P. 34000",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-22-de-septiembre-durango-durango-28290745-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-22-de-septiembre-durango-durango-28290745-foto-02.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-22-de-septiembre-durango-durango-28290745-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fenrique-carrola-22-de-septiembre-durango-durango-28290745-foto-05.jpg&w=2048&q=75",
+      ],
+      price: "15,000",
+      title: "Enrique Carrola, Colonia 22 de Septiembre, C.P. 34286",
+    },
+    {
+      rating: "4",
+      desc: "Local en Renta",
+      imgSrc: [
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fmexico-guadalupe-durango-durango-27211237-foto-01.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fmexico-guadalupe-durango-durango-27211237-foto-02.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fmexico-guadalupe-durango-durango-27211237-foto-04.jpg&w=2048&q=75",
+        "https://propiedades.com/_next/image?url=https%3A%2F%2Fpropiedadescom.s3.amazonaws.com%2Ffiles%2Foriginal%2Fmexico-guadalupe-durango-durango-27211237-foto-07.jpg&w=2048&q=75",
+      ],
+      price: "30,000",
+      title: "Mexico, Colonia Guadalupe, C.P. 34020",
+    },
+  ];

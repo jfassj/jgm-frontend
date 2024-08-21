@@ -26,13 +26,13 @@ export default function BasicMenu() {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    // Example: Retrieve the user's email or name and set the first letter
-    const token = localStorage.getItem('token');
+    const queryParams = new URLSearchParams(window.location.search);
+    const token = queryParams.get('token') || localStorage.getItem('token');
     if (token) {
-      // Logic to decode the token and get user info
-      const email = "example@gmail.com"; // Example email, replace with decoded email
-      setUserInitial(email.charAt(0));
+      localStorage.setItem('token', token);
       setIsAuthenticated(true);
+      const decodedToken = JSON.parse(atob(token.split('.')[1]));
+      setUserInitial(decodedToken.name.charAt(0));
     }
   }, []);
 
@@ -154,24 +154,21 @@ export default function BasicMenu() {
               key="divider"
               style={{
                 height: "1px",
-                backgroundColor: "var(--grey)",
-                width: "100%",
+                backgroundColor: "#d3d3d3",
+                margin: "0.5rem 1rem",
               }}
             />,
-            <MenuItem key="airbnb" className="menu-items" onClick={handleCloseMenu}>
-              Airbnb Your Home
+            <MenuItem key="google-login" className="menu-items" onClick={handleGoogleLogin}>
+              Login con Google
             </MenuItem>,
-            <MenuItem key="experience" className="menu-items" onClick={handleCloseMenu}>
-              Host an experience
-            </MenuItem>,
-            <MenuItem key="help" className="menu-items" onClick={handleCloseMenu}>
-              Help
+            <MenuItem key="facebook-login" className="menu-items" onClick={handleFacebookLogin}>
+              Login con Facebook
             </MenuItem>,
           ]
         )}
       </Menu>
 
-      <Dialog open={openModal} onClose={handleCloseModal} maxWidth="sm" fullWidth>
+      <Dialog open={openModal} onClose={handleCloseModal}>
         <DialogTitle>
           <IconButton
             aria-label="close"
@@ -186,11 +183,8 @@ export default function BasicMenu() {
             <CloseIcon />
           </IconButton>
         </DialogTitle>
-        <DialogContent dividers>
-          <div className="auth-modal">
-            <div>¡Te damos la bienvenida a JGM!</div>
-            <div>
-            <form>
+        <DialogContent>
+          <div>
             <input
               type="text"
               value={username}
@@ -205,17 +199,8 @@ export default function BasicMenu() {
             />
             <Button onClick={handleLogin}>Login</Button>
             <Button onClick={handleRegister}>Register</Button>
-          </form>
-            </div>
-            <div className="divider">--------------------------------o-----------------------------</div>
-              <Button variant="outlined" fullWidth className="auth-button" onClick={handleGoogleLogin}>
-                Continuar con Google
-              </Button>
-              <Button variant="outlined" fullWidth className="auth-button" onClick={handleFacebookLogin}>
-                Continuar con Facebook
-              </Button>
+            <p>{message}</p>
           </div>
-          
         </DialogContent>
       </Dialog>
     </div>
